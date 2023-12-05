@@ -1,4 +1,4 @@
-git clone https://github.com/ditt-anvandarnamn/account-services.git
+git clone https://github.com/wingemo/Account-Service.git
 
 cd account-services
 
