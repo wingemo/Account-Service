@@ -6,6 +6,8 @@ mvn clean install
 
 mvn spring-boot:run
 
+ pip install sqlalchemy
+
 python scripts/create_database.py
 
 python scripts/populate_database.py
