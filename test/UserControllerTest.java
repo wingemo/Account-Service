@@ -1,7 +1,7 @@
-import com.example.demo.Application;
-import com.example.demo.controller.UserController;
-import com.example.demo.entity.User;
-import com.example.demo.repository.UserRepository;
+// Import statements for the classes you are using
+import applikation.UserController;
+import applikation.entity.User;
+import applikation.repository.UserRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -20,6 +20,9 @@ import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+
+// Adjust the package declaration to match your directory structure
+package test;
 
 @WebMvcTest(UserController.class)
 public class UserControllerTest {
