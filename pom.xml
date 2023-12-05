@@ -18,18 +18,21 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.6.3</version> <!-- Uppdatera versionen här -->
         </dependency>
 
         <!-- Spring Boot Starter Data JPA -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>2.6.3</version> <!-- Uppdatera versionen här -->
         </dependency>
 
         <!-- H2 Database -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
+            <version>1.4.200</version> <!-- Uppdatera versionen här -->
             <scope>runtime</scope>
         </dependency>
 
@@ -37,6 +40,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <version>2.6.3</version> <!-- Uppdatera versionen här -->
             <scope>test</scope>
         </dependency>
 
@@ -57,16 +61,5 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version>
-                <configuration>
-                    <reportsDirectory>${project.basedir}/result</reportsDirectory>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+    <!-- ... övrig konfiguration ... -->
 </project>
