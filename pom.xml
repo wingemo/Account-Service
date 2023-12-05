@@ -88,6 +88,7 @@
     </dependencies>
 
     <build>
+        <testSourceDirectory>test</testSourceDirectory> <!-- Update to point to the test directory -->
         <sourceDirectory>src</sourceDirectory>
         <plugins>
             <!-- Maven Spring Boot Plugin -->
@@ -102,7 +103,6 @@
                         </goals>
                         <configuration>
                             <mainClass>Application</mainClass> <!-- Ange här din huvudklass -->
-                            <testSourceDirectory>test</testSourceDirectory>
                         </configuration>
                     </execution>
                 </executions>
